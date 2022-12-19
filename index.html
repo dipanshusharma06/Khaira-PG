@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,300;1,400&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Khaira PG</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Khaira PG</a>
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutus.html">About us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="row mt-3 mb-3 common-margin">
+        <div class="col-lg-6 mt-auto mb-auto">
+            <h4>Get Accomodation now</h4>
+            <form action="">
+                <div class="form-group">
+                    <label for="nameInput">Name </label>
+                    <input type="text" class="form-control" name="nameInput" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label for="numberInput">Mobile </label>
+                    <input type="text" class="form-control" name="numberInput" placeholder="Enter mobile number">
+                </div>
+                <div class="form-group">
+                    <label for="emailInput">Email Address </label>
+                    <input type="email" class="form-control" name="emailInput" placeholder="Enter email">
+                </div>
+                <div class="mt-4 mr-auto ml-auto">
+                    <button type="submit" class="btn btn-warning">Accomodate</button>
+                </div>
+                
+            </form>
+        </div>
+        <div class="col-lg-6">
+            <div id="pictureGallery" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item item active">
+                        <img src="sample1.jpg" class="d-block w-100" alt="image-1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="sample2.jpg" class="d-block w-100" alt="image-2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="sample3.jpg" class="d-block w-100" alt="image-3">
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#pictureGallery" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#pictureGallery" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
